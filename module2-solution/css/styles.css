@@ -33,7 +33,8 @@ clear: both;
    display: block;
    margin-right: 0;
    background-color: #fca05d;
-   font-family: Comic Sans MS, cursive, sans-serif;
+   /*font-family: Comic Sans MS, cursive, sans-serif;*/
+   font-family: Acme, sans-serif;
    font-size: 1em; 
    font-weight: 650; 
    color: #394145;   
@@ -50,7 +51,8 @@ clear: both;
 .Beef{   
    display: block;
    background-color: #fcd305;
-   font-family: Comic Sans MS, cursive, sans-serif;
+   /*font-family: Comic Sans MS, cursive, sans-serif;*/
+   font-family: Acme, sans-serif;
    font-size: 1em; 
    font-weight: 650; 
    color: #394145;   
@@ -67,7 +69,8 @@ clear: both;
 .Sushi{
    display: block;
    background-color: #52bfff;
-   font-family: Comic Sans MS, cursive, sans-serif;
+   /*font-family: Comic Sans MS, cursive, sans-serif;*/
+   font-family: Acme, sans-serif;
    font-size: 16px; 
    font-weight: 650; 
    color: #394145;   
