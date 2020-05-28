@@ -139,7 +139,7 @@ function chooseRandomCategory (categories) {
 
 
 // Load the menu categories view
-dc.loadMenuCategories = function (categoryMenuItems) {
+dc.loadMenuCategories = function () {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     allCategoriesUrl,
@@ -187,7 +187,8 @@ function buildAndShowCategoriesHTML (categories) {
 // build categories view HTML to be inserted into page
 function buildCategoriesViewHtml(categories,
                                  categoriesTitleHtml,
-                                 categoryHtml) {
+                                 categoryHtml,
+                                 categoryShort) {
 
   var finalHtml = categoriesTitleHtml;
   finalHtml += "<section class='row'>";
